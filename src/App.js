@@ -5,7 +5,7 @@ import { Footer } from './components/Footer';
 
 const App = () => {
 
-    const [darkTheme, setDarkTheme] = useState(false);
+    const [darkTheme, setDarkTheme] = useState(true);
 
     return (
         <div className={darkTheme ? 'dark' : ''}>
